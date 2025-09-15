@@ -1,0 +1,58 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+</head>
+<body style="background-color:#F0E8BB; color:;#C2A77C">
+<div style="background-color: #C2A77C; color: #6A4941; font-size: 50px; text-align: center;">Emilys First Website</div> 
+<div> Home | About me | Favprite things | Constact Me</div>
+<body style="background-color:#6A4941; color:;#C2A77C">
+<div style="background-color: #C2A77C; font-size: 35px; color: #6A4941;">  Emilys Introduction:</div>
+<img src="computer-laptop-email.jpg" width="352" height="200" alt="hi" style="float: right;"/>
+<p>Welcome to my website. Hi! I’m someone who loves God, cheerleading, and taking naps. Fall and Christmas are my favorite seasons because everything feels cozy and fun. I’m really into comfy clothes like hoodies and sweatpants from Aritzia, with a dash of vanilla scented perfume, and I can’t get enough of pumpkin cream chai lattes. I also love riding my ebike, dancing, and eating tater tots. Worship and youth group are really important to me, and I enjoy snow days, giving hugs, and wearing UGGs. Oh, and I always try to keep my nails looking nice with French tips!</p>
+	
+	<div class="threecolumns">
+	  <h3>About Me</h3>
+	  <p>Hello There I am a web desighner.I enjoy mzking websistes for different clients and aswell as logos for companies. Want to learn more about me? Click here!</p>
+	</div>
+<div class="threecolumns">
+  <h3>Favorite Things</h3>
+  <p>Some of my favorite things are Jesus, shopping, starbucks, lip gloss, and vanilla scented perfume.</p>
+</div>
+<div class="threecolumns">
+  <h3>Contact Me</h3>
+  <p>Want to contact me and chat about more? Be sure to contact me here!</p>
+  <p>&nbsp;</p>
+</div>
+
+</body>
+</html>
+	.my-div {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  background-image: url('your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand for top, right, bottom, left: 0 */
+  background: rgba(0, 0, 0, 0.5); /* black overlay with 50% transparency */
+}
+
+/* Text */
+.my-div .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1; /* ensures text sits above overlay */
+}

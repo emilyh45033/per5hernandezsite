@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a:link {
+  color: #f6f5f2;
+}
+
+/* visited link */
+a:visited {
+  color: #f6f5f2;
+}
+
+/* mouse over link */
+a:hover {
+  color: #8f8e7f;
+}
+
+/* selected link */
+a:active {
+  color: #8fb135;
+}
+
+body {
+	background-color:#f6f5f2; 
+	color:#1d3215;
+}
+
+#headerdiv {
+	background-color: #1d3215; 
+	font-size: 50px; 
+	text-align: center; 
+	color: #f6f5f2; 
+	padding: 25px;
+}
+#navdiv {
+	text-align: center;
+	background-color: #487531;
+	color: #f6f5f2;
+	padding: 15px;
+}
+#grablediv {
+	padding: 15px;
+}
+#footer {
+	text-align: center; 
+	background-color: #487531; 
+	color: #f6f5f2; 
+	padding: 15px; 
+	font-size: 12px;
+}
+.threecolumns {
+	width: 31%;
+	padding: 15px;
+	float: left;
+}
+.threecolumns:hover {
+	box-shadow: 0px 0px 5px 5px #cccccc;
+}
+
+
+
+
+
+
